@@ -58,3 +58,25 @@ Stopper un conteneur:
 docker stop <conteneur>
 ```
 
+entrer dans un conteneur:
+```bash
+docker exec -it <conteneur> /bin/bash
+```
+
+vois les logs d'un conteneur:
+```bash
+docker logs <conteneur>
+```
+
+## les volumes:
+- bind mount: relier au pc local
+- volume: espace de stockage propre au conteneur
+
+créer un volume:
+```bash
+docker volume create <nom_volume>
+```
+voir les volumes:
+```bash
+docker volume ls
+```

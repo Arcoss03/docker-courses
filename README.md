@@ -21,6 +21,10 @@ supprimer une image
 ```bash
 docker rmi <image>
 ```
+build une image:
+```bash
+docker build -t nom_de_votre_image:tag .
+```
 
 ## les conteneurs:
 
